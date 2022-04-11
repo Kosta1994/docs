@@ -108,7 +108,7 @@ For troubleshooting information, see "[Troubleshooting required status checks](/
 Requires all comments on the pull request to be resolved before it can be merged to a protected branch. This ensures that all comments are addressed or acknowledged before merge.
 {% endif %}
 
-### Require signed commits
+### Require signed commits 
 
 When you enable required commit signing on a branch, contributors {% ifversion fpt or ghec %}and bots{% endif %} can only push commits that have been signed and verified to the branch. For more information, see "[About commit signature verification](/articles/about-commit-signature-verification)."
 
